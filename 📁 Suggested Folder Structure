@@ -1,0 +1,19 @@
+/
+├── frontend/
+│   ├── index.html
+│   ├── styles/
+│   │   └── main.css
+│   ├── scripts/
+│   │   └── app.js
+│   └── assets/
+│       └── images/
+├── backend/
+│   ├── python/
+│   │   └── app.py
+│   └── node/
+│       └── server.js
+├── docs/
+│   └── README.md
+├── tests/
+│   └── test_examples.py
+└── .gitignore
