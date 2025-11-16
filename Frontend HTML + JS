@@ -1,0 +1,11 @@
+<!-- frontend/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fullstack ML Project</title>
+</head>
+<body>
+  <h1>Welcome to Fullstack + ML</h1>
+  <script src="scripts/app.js"></script>
+</body>
+</html>
