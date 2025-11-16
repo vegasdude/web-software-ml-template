@@ -1,0 +1,27 @@
+/my-fullstack-ml-project
+├── frontend/                # Web frontend
+│   ├── index.html
+│   ├── styles/
+│   │   └── main.css
+│   └── scripts/
+│       └── app.js
+├── backend/                 # Web backend
+│   ├── python/
+│   │   ├── app.py
+│   │   └── api_routes.py
+│   └── node/
+│       └── server.js
+├── ml/                      # Machine Learning models
+│   ├── data/
+│   │   └── sample_dataset.csv
+│   ├── models/
+│   │   └── example_model.pkl
+│   └── training/
+│       └── train_model.py
+├── software/                # General-purpose scripts/utilities
+│   └── utilities.py
+├── tests/
+│   └── test_examples.py
+├── docs/
+│   └── README.md
+└── .gitignore
