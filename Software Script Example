@@ -1,0 +1,6 @@
+# software/utilities.py
+def greet_user(name):
+    return f"Hello, {name}! Welcome to the Fullstack + ML project."
+
+if __name__ == "__main__":
+    print(greet_user("Anthony"))
