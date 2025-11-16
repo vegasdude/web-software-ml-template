@@ -1,0 +1,24 @@
+# ml/training/train_model.py
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+import pickle
+
+# Sample data
+data = pd.DataFrame({
+    'x': [1, 2, 3, 4, 5],
+    'y': [2, 4, 5, 4, 5]
+})
+
+X = data[['x']]
+y = data['y']
+
+# Train a simple model
+model = LinearRegression()
+model.fit(X, y)
+
+# Save model
+with open('../models/example_model.pkl', 'wb') as f:
+    pickle.dump(model, f)
+
+print("Model trained and saved!")
